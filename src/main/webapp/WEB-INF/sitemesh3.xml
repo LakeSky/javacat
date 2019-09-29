@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <mapping path="/busi/*" decorator="/WEB-INF/decorators/decoratorAdminLTEPlus.jsp"/>
+    <mapping path="/sys/*" decorator="/WEB-INF/decorators/decoratorAdminLTEPlus.jsp"/>
+    <mapping path="/auto/*" decorator="/WEB-INF/decorators/decoratorAdminLTEPlus.jsp"/>
+    <mapping path="/error/*" decorator="/WEB-INF/decorators/decoratorAdminLTEPlus.jsp"/>
+    <mapping path="/sys/role/menu" decorator="/WEB-INF/decorators/decoratorSingle.jsp"/>
+    <mapping path="/sys/role/resource" decorator="/WEB-INF/decorators/decoratorSingle.jsp"/>
+    <mapping path="/sys/log/viewDetail" decorator="/WEB-INF/decorators/decoratorSingle.jsp"/>
+    <mapping path="/front/test/*" decorator="/WEB-INF/decorators/decoratorSingle.jsp"/>
+</sitemesh>
