@@ -33,7 +33,7 @@
         <commonsCollections.version>3.2.1</commonsCollections.version>
         <commonsIo.version>2.2</commonsIo.version>
         <commonsLang.version>2.6</commonsLang.version>
-        <commonsFileupload.version>1.3.1</commonsFileupload.version>
+        <commonsFileupload.version>1.3.3</commonsFileupload.version>
         <commonsCodec.version>1.8</commonsCodec.version>
         <commonsDbcp.version>1.4</commonsDbcp.version>
         <junit.version>4.9</junit.version>
@@ -41,7 +41,8 @@
         <validationhibernate.version>5.2.4.Final</validationhibernate.version>
         <jackson.version>1.9.11</jackson.version>
         <spring.data.version>1.7.2.RELEASE</spring.data.version>
-        <spring.version>4.2.7.RELEASE</spring.version>
+        <spring.version>4.3.25.RELEASE</spring.version>
+        <springSecurity.version>4.2.13.RELEASE</springSecurity.version>
         <sitemesh.version>3.0.0</sitemesh.version>
         <poi-ooxml.version>3.10-FINAL</poi-ooxml.version>
         <jedis.version>2.9.0</jedis.version>
@@ -51,11 +52,10 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-compress</artifactId>
-            <version>1.18</version>
+            <version>[1.19,)</version>
         </dependency>
 
         <dependency>
@@ -261,22 +261,22 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
-            <version>${spring.version}</version>
+            <version>${springSecurity.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
-            <version>${spring.version}</version>
+            <version>${springSecurity.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
-            <version>${spring.version}</version>
+            <version>${springSecurity.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-acl</artifactId>
-            <version>${spring.version}</version>
+            <version>${springSecurity.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
