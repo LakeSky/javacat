@@ -446,7 +446,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.4</version>
                 <configuration>
-                    <outputDirectory>/usr/local/war/</outputDirectory>
+                    <outputDirectory>war</outputDirectory>
                     <warName>javacat</warName>
                     <archive>
                         <manifest>
