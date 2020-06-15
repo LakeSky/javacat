@@ -30,7 +30,7 @@
         <javamail.version>1.4.7</javamail.version>
         <commonsHttpClient.version>4.5.8</commonsHttpClient.version>
         <commonsBeanUtils.version>1.9.3</commonsBeanUtils.version>
-        <commonsCollections.version>3.2.1</commonsCollections.version>
+        <commonsCollections.version>3.2.2</commonsCollections.version>
         <commonsIo.version>2.2</commonsIo.version>
         <commonsLang.version>2.6</commonsLang.version>
         <commonsFileupload.version>1.3.3</commonsFileupload.version>
