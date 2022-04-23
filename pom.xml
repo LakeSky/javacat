@@ -41,7 +41,7 @@
         <validationhibernate.version>5.2.4.Final</validationhibernate.version>
         <jackson.version>1.9.11</jackson.version>
         <spring.data.version>1.11.23.RELEASE</spring.data.version>
-        <spring.version>4.3.25.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
         <springSecurity.version>4.2.13.RELEASE</springSecurity.version>
         <sitemesh.version>3.0.0</sitemesh.version>
         <poi-ooxml.version>3.10-FINAL</poi-ooxml.version>
